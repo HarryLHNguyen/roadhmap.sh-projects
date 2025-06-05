@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    /* make children (nav-left, nav-right) line up horizontally */
+    justify-content: space-between;
+    /* push left and right to opposite ends */
+    align-items: center;
+    /* vertically center the text */
+    border-bottom: 1px solid black;
+}
+
+.nav-left {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.nav-right a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
